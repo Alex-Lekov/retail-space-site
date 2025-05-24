@@ -162,13 +162,14 @@ header {
 }
 
 /* Hero section */
-.hero {
-  background-color: var(--primary-color);
-  color: white;
-  text-align: center;
-  padding: 120px 0 80px;
-  margin-top: 60px;
-  position: relative;
+#home.hero {
+  background-image: url('../images/header_img.png'); /* Путь к изображению */
+  background-size: cover; /* Изображение покрывает весь блок */
+  background-position: center; /* Центрирование изображения */
+  background-repeat: no-repeat; /* Избегаем повторения */
+  color: #fff; /* Цвет текста для контраста */
+  padding: 100px 0; /* Отступы сверху и снизу */
+  text-align: center; /* Центрирование текста */
 }
 
 .hero::before {
